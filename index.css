@@ -1,0 +1,21 @@
+body {
+    min-width: 400px;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: Serif;
+}
+
+nav {
+    color: #352D28;
+    opacity: 0.5;
+    
+}
+
+article {
+    color: #FEAA79;
+}
+
+footer {
+    clear: both;
+    color: #352D28;
+}
