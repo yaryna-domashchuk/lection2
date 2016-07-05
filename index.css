@@ -2,20 +2,22 @@ body {
     min-width: 400px;
     max-width: 1920px;
     margin: 0 auto;
-    font-family: Serif;
+    font-family: Georgia, Serif;
 }
 
 nav {
     background-color: #0d0d0d;
     opacity: 0.5;
-    
+    color: #FEAA79;
 }
 
 article {
     background-color: #FEAA79;
+    color: black;
 }
 
 footer {
     clear: both;
     background-color: #0d0d0d;
+    color: #FEAA79;
 }
