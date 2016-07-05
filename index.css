@@ -6,16 +6,16 @@ body {
 }
 
 nav {
-    color: #352D28;
+    background-color: #352D28;
     opacity: 0.5;
     
 }
 
 article {
-    color: #FEAA79;
+    background-color: #FEAA79;
 }
 
 footer {
     clear: both;
-    color: #352D28;
+    background-color: #352D28;
 }
