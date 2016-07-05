@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #352D28;
+    background-color: #0d0d0d;
     opacity: 0.5;
     
 }
@@ -17,5 +17,5 @@ article {
 
 footer {
     clear: both;
-    background-color: #352D28;
+    background-color: #0d0d0d;
 }
