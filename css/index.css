@@ -7,32 +7,38 @@ body {
 }
 
 nav {
-    background-color: #0d0d0d;
+    background-color: #FF6600;
     opacity: 0.8;
-    color: #FEAA79;
     position:  fixed;
-    width: auto;
+    width: 100%;
     height: 60px;
     
 }
 
 #logo {
     float: left;
-    width: 20;
+    width: 20%;
+    text-decoration: none;
 }
 
 #top-links {
+    text-align: right;
     margin-right: auto;
+    text-decoration: none;
 }
 
 article {
-    background-color: #FEAA79;
+    background-color: #FFCC00;
     color: black;
 }
 
 footer {
+    height: 300px;
     clear: both;
-    background-color: #0d0d0d;
-    color: #FEAA79;
+    background-color: #FF6600;
+    text-decoration: none;
 }
 
+.web {
+    float: right;
+}
