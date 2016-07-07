@@ -1,14 +1,28 @@
 body {
-    min-width: 400px;
+    min-width: 320px;
     max-width: 1920px;
     margin: 0 auto;
     font-family: Georgia, Serif;
+    
 }
 
 nav {
     background-color: #0d0d0d;
-    opacity: 0.5;
+    opacity: 0.8;
     color: #FEAA79;
+    position:  fixed;
+    width: auto;
+    height: 60px;
+    
+}
+
+#logo {
+    float: left;
+    width: 20;
+}
+
+#top-links {
+    margin-right: auto;
 }
 
 article {
@@ -21,3 +35,4 @@ footer {
     background-color: #0d0d0d;
     color: #FEAA79;
 }
+
