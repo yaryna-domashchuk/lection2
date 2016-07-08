@@ -3,13 +3,13 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     font-family: Georgia, Serif;
-    
+    background-color: #FFCC00;
 }
 
 nav {
     background-color: #FF6600;
     opacity: 0.8;
-    position:  fixed;
+    position: fixed;
     width: 100%;
     height: 60px;
 }
@@ -17,27 +17,62 @@ nav {
 #logo {
     float: left;
     width: 20%;
+}
+
+nav a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 #top-links {
     text-align: right;
     margin-right: auto;
-    text-decoration: none;
+}
+
+#link-container {
+    position: relative;
+    top: 20px;
+    right: 20px;
 }
 
 article {
     background-color: #FFCC00;
+    text-align: center
+}
 
+.quotation {
+    font-style: italic;
+}
+
+.thought {
+    font-weight: bold
 }
 
 footer {
-    height: 200px;
+    height: 220px;
     clear: both;
     background-color: #FF6600;
+    margin-bottom: 20px;
+}
+
+footer a {
     text-decoration: none;
+    color: black;
 }
 
 .web {
     float: right;
+    position: relative;
+    right: 40px;
+}
+
+.link {
+    border-radius: 36px;
+}
+
+#inf {
+    position: relative;
+    top: 80px;
+    left: 30px;
 }
