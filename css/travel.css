@@ -26,6 +26,16 @@ nav a:link {
     font-weight: bold;
 }
 
+nav a:hover {
+    background-color: #D93300;
+    color: black;
+    padding: 14px 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 3px #8B0000;
+    text-align: center; 
+    text-decoration: none;
+}
+
 #top-links {
     text-align: right;
     margin-right: auto;
@@ -38,12 +48,27 @@ nav a:link {
     margin-right: 20px;
 }
 
-nav a:hover {
+.dropdown {
+    position: relative;
+    margin-top: -7px;
+    margin-right: 20px;
+    float: right;
+    width: 5%;
+}
+
+.dropdown-toggle {
     background-color: #D93300;
     color: black;
-    padding: 14px 25px;
     text-align: center; 
-    text-decoration: none;
+    border: none;
+}
+
+.dropdown-toggle:hover {
+    background-color: #D93300;
+    color: black;
+    box-shadow: 5px 5px 3px #8B0000;
+    text-align: center;
+    border: none;
 }
 
 article {
@@ -52,7 +77,7 @@ article {
     margin-right: 20px;
     margin-left:20px;
     margin-top: 90px;
-    width:100%;
+    padding: 10px;
 }
 
 .quotation {
@@ -78,22 +103,27 @@ footer {
     height: 240px;
     clear: both;
     background-color: #FF6600;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     width:100%;
+    
 }
 
 footer a:link {
     text-decoration: none;
     color: black;
+    font: bolder;
 }
 
 footer a:hover {
     background-color: #D93300;
     color: black;
     padding: 14px 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 3px #8B0000;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    font: bolder;
 }
 
 .web {
@@ -111,4 +141,24 @@ footer a:hover {
     top: 80px;
     left: 30px;
     width: 40%;
+}
+
+#carousel-example-generic {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-inner>.item>img {
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+#map_wrapper {
+    height: 500px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
 }

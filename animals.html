@@ -3,41 +3,122 @@
     <head>
         <title>animals</title>
         <meta charset="UTF-8">
+        
+         <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+       
         <link rel="stylesheet" href="css/animals.css">
         <link rel="icon" type="image/jpg" href="links/logo.jpg">
     </head>
     
     <body>
-        <nav id="top-links">
-            <div id="link-container">
-            <div id="logo"><a href="index.html">Yaryna Domashchuk</a></div>
-                <a href="photo.html">Фотографія</a>
-                <a href="travel.html">Мандри</a>
-                <a href="poems.html">Вірші</a>
-                <a href="profession.html">Професія</a>
-                <a href="singing.html">Співи</a>
-                <a href="sport.html">Велоковзани</a>
-                <a href="tea.html">Чай</a>
-                <a href="dancing.html">Танці</a>
-                <a href="ngo.html">ГО</a>
-            </div>
-        </nav>
         
+      <nav id="top-links">
+        <div id="link-container">
+        <div id="logo"><a href="index.html">Yaryna Domashchuk</a></div>
+        <a href="photo.html">Фотографія</a>
+        <a href="travel.html">Мандри</a>
+        <a href="poems.html">Вірші</a>
+        <a href="profession.html">Професія</a>
+        
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+          
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="singing.html">Співи</a></li>
+            <li><a href="sport.html">Велоковзани</a></li>
+            <li><a href="tea.html">Чай</a></li>
+            <li><a href="dancing.html">Танці</a></li>
+            <li><a href="ngo.html">ГО</a></li>
+            
+          </ul>
+        </div>
+        
+        </div>
+      </nav>
+        
+
         <article>
             
-            <img src="photo/photo/animals/black-dog.jpg" alt="black dog">
-            <img src="photo/photo/animals/hedgehog-apple.jpg" alt="hedgehog and apple">
-            <img src="photo/photo/animals/dog.jpg" alt="dog">
-            <img src="photo/photo/animals/hedgehog-water.jpg" alt="hedgehog and water">
-            <img src="photo/photo/animals/giraffe.jpg" alt="giraffe">
-            <img src="photo/photo/animals/hedgehog.jpg" alt="hedgehog">
             
-                
+            
+             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img class="img-responsive img-thumbnail" src="photo/photo/animals/black-dog.jpg" alt="black dog">
+            <div class="carousel-caption">
+      	
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/photo/animals/hedgehog-apple.jpg" alt="hedgehog and apple">
+      <div class="carousel-caption">
+      	
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/photo/animals/dog.jpg" alt="dog">
+      <div class="carousel-caption">
+      	
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/photo/animals/hedgehog-water.jpg" alt="hedgehog and water">
+      <div class="carousel-caption">
+      
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/photo/animals/giraffe.jpg" alt="giraffe">
+      <div class="carousel-caption">
+      
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/photo/animals/hedgehog.jpg" alt="hedgehog">
+      <div class="carousel-caption">
+      
+      </div>
+    </div>
+   
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+        
+         
+      
+  <ul class="pager">
+    <li><a href="macro.html">Попередня галерея</a></li>
+    <li><a href="landscapes.html">Наступна галерея</a></li>
+  </ul>
+
             
         </article>
         
         <footer>
             <main class="web">
+            
             <h2>Пишіть мені у соцмережах:</h2>
                 <a href="https://www.facebook.com/profile.php?id=100004552182146">
                     <img class="link" src="links/facebook.png" width="38" height="38" alt="facebook">
@@ -55,7 +136,8 @@
                 <a href="mailto:yaryna.domashchuk@gmail.com">yaryna.domashchuk@gmail.com</a>
             </main>
             
-            <h2 id="inf">Designed by Yaryna Domashchuk</h2><h2 id="inf">2016</h2>
+            <h2 id="inf">Designed by Yaryna Domashchuk</h2><h2 id="inf">Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2016</h2>
+            
         </footer>
 
     </body>
