@@ -3,6 +3,10 @@
     <head>
         <title>ngo</title>
         <meta charset="UTF-8">
+        
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ 
         <link rel="stylesheet" href="css/ngo.css">
         <link rel="icon" type="image/jpg" href="links/logo.jpg">
     </head>
@@ -15,23 +19,94 @@
         <a href="travel.html">Мандри</a>
         <a href="poems.html">Вірші</a>
         <a href="profession.html">Професія</a>
-        <a href="singing.html">Співи</a>
-        <a href="sport.html">Велоковзани</a>
-        <a href="tea.html">Чай</a>
-        <a href="dancing.html">Танці</a>
-        <a href="ngo.html">ГО</a>
+        
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+          
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="singing.html">Співи</a></li>
+            <li><a href="sport.html">Велоковзани</a></li>
+            <li><a href="tea.html">Чай</a></li>
+            <li><a href="dancing.html">Танці</a></li>
+            <li><a href="ngo.html">ГО</a></li>
+            
+          </ul>
+        </div>
+        
         </div>
       </nav>
         
-        
         <article>
-            <img src="photo/ngo/bonfire.jpg" alt="bonfire">
-            <img src="photo/ngo/easter-game.jpg" alt="Easter game">
-            <img src="photo/ngo/easter.jpg" alt="Easter">
-            <img src="photo/ngo/girls-gathering.jpg" alt="girls` gathering">
-            <img src="photo/ngo/in-mountains.jpg" alt="in mountains">
-            <img src="photo/ngo/row-of-photos.jpg" alt="row of photos">
             
+            
+     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+    
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img class="img-responsive img-thumbnail" src="photo/ngo/bonfire.jpg" alt="bonfire">
+            <div class="carousel-caption">
+      	
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/ngo/easter-game.jpg" alt="Easter game">
+      <div class="carousel-caption">
+      	
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/ngo/easter.jpg" alt="Easter">
+      <div class="carousel-caption">
+      	
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/ngo/girls-gathering.jpg" alt="girls` gathering">
+      <div class="carousel-caption">
+      
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/ngo/in-mountains.jpg" alt="in mountains">
+      <div class="carousel-caption">
+      
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive img-thumbnail" src="photo/ngo/row-of-photos.jpg" alt="row of photos">
+      <div class="carousel-caption">
+      
+      </div>
+    </div>
+    
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+        
+        
+        
+        
             
             <h1 class="quotation">Година роботи навчить більше, ніж день пояснення</h1>
             <h1 class="quotation">Жан-Жак Руссо</h1>
@@ -46,8 +121,10 @@
           
         </article>
         
-        <footer>
+        
+         <footer>
             <main class="web">
+            
             <h2>Пишіть мені у соцмережах:</h2>
                 <a href="https://www.facebook.com/profile.php?id=100004552182146">
                     <img class="link" src="links/facebook.png" width="38" height="38" alt="facebook">
@@ -65,8 +142,10 @@
                 <a href="mailto:yaryna.domashchuk@gmail.com">yaryna.domashchuk@gmail.com</a>
             </main>
             
-            <h2 id="inf">Designed by Yaryna Domashchuk</h2><h2 id="inf">2016</h2>
+            <h2 id="inf">Designed by Yaryna Domashchuk</h2><h2 id="inf">Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2016</h2>
+            
         </footer>
+
 
 
     </body>
